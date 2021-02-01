@@ -21,7 +21,7 @@ Router.post("/", async (req, res) => {
 	}
 });
 
-Router.get("/", async (req, res) => {
+Router.post("/login", async (req, res) => {
 	try {
 		const { username, password } = req.body;
 
